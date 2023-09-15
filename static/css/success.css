@@ -1,0 +1,11 @@
+h1.success {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #00FF00; /* Green text color for success message */
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00, 0 0 40px #00FF00, 0 0 50px #00FF00, 0 0 60px #00FF00, 0 0 70px #00FF00; /* Glow effect */
+}
+
+body {
+    background-color: #000; /* Dark background color */
+}

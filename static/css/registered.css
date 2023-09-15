@@ -1,0 +1,28 @@
+body {
+    background-color: #333; /* Dark background color */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #212121; /* Dark background color */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #555; /* Darker background color for list items */
+    transition: background-color 0.3s; /* Transition effect for background color */
+}
+
+li:hover {
+    background-color: #777; /* Darker background color on hover */
+}

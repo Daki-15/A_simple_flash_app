@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/static/css/index.css">
+{% endblock %}
+
+
+
+{% block body %}
+    <h1 class="neon">Register:</h1>
+    <form action="/register" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Your name">
+        <select name="sport">
+            <option disabled selected value="">Sport</option>
+            <option value="Football">Football</option>
+            <option value="Basketball">Basketball</option>
+            <option value="Soccer">Soccer</option>
+            <option value="Baseball">Baseball</option>
+            <option value="Tennis">Tennis</option>
+            <option value="Golf">Golf</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Volleyball">Volleyball</option>
+            <option value="Hockey">Hockey</option>
+            <option value="Table Tennis">Table Tennis</option>
+            <option value="Rugby">Rugby</option>
+            <option value="Badminton">Badminton</option>
+            <option value="Boxing">Boxing</option>
+            <option value="MMA">MMA</option>
+            <option value="Cycling">Cycling</option>
+            <option value="Swimming">Swimming</option>
+            <option value="Track and Field">Track and Field</option>
+            <option value="Gymnastics">Gymnastics</option>
+            <option value="Wrestling">Wrestling</option>
+            <option value="Weightlifting">Weightlifting</option>
+        </select>
+        <input type="submit" value="Register">
+        <a href="/registransts">See who is registransts</a>
+    </form>
+
+    <!-- <script src="/static/main.js"></script> -->
+
+{% endblock %}

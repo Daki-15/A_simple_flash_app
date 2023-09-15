@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/static/css/registered.css">
+{% endblock %}
+
+{% block body %}
+    <ul>
+        {% for person in persons %}
+            <li>{{ person }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    color: #fff; /* White text color */
+    font-size: 36px;
+    margin-top: 50vh; /* Center the text vertically */
+    transform: translateY(-50%);
+}
+
+body {
+    background-color: #333; /* Dark background color */
+}
+
+/* Glow effect for h1 */
+h1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(154, 154, 181, 0.1); /* White glow color with opacity */
+    opacity: 0;
+    animation: glow 1s infinite; /* Glow animation */
+}
+
+@keyframes glow {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}
